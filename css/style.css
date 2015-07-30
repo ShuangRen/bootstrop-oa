@@ -1,0 +1,64 @@
+/*bootstrap 增强*/
+html {height:100%;}
+body {font-family: 'Microsoft YaHei';height:100%;} /*默认字体*/
+.bg-white {background: #fff;} /*白色背景*/
+.bg-pub {background: #f2f2f2}
+.bg-black {background: #000;color:#9d9d9d;}
+.text-black {color:#000;} /*黑色文字*/
+.padding-bottom15 {padding-bottom: 15px;} /*下内边距15*/
+.no-padding {padding:0;} /*内边距0*/
+.padidng-space {width: 100%;padding:15px 0;min-height: 1px} /*增加一个空白块*/
+.margin-bottom15 {margin-bottom: 15px;}
+.text-white, .text-white a {color:#fff;}
+.text-white li:hover, .text-white li:hover a {background: #2c6ca3;}
+.text-white .icon-bar {background: #fff}
+.navbar {margin-bottom: 0;}
+.margin-top15 {margin-top: 15px;}
+.margin-top20 {margin-top: 20px;}
+.margin-left10 {margin-left: 10px;}
+.offset-28 {left: 29%}
+.cont-wrap table tr td, .cont-wrap table tr th {vertical-align:middle;}
+
+.login-wrap {max-width: 500px;width: 80%;margin-top: 10%}
+.reg-wrap {max-width: 500px;width: 80%;margin-top: 5%}
+.cont-wrap {width: 100%;height:100%;}
+.fa-mobile-phone {min-width: 8%}
+.list-group-item {border-right: none;border: none;}
+.list-group {box-shadow: none;}
+.slidebar {height:100%;}
+.db {display: block;position: relative;top:20px;font-size: 1.4em;}
+.db2 {display: block;text-align: center;font-size: 1.2em}
+.db4 {margin-right: 5%}
+.navbar-nav {margin-left: 5%;}
+
+.margin-top30 {margin-top: 30px}
+.padding-left10b {padding-left:10%;}
+#mar23 {margin-left:23%;}
+
+
+.menu-item {width: 30%;float: left;margin:0 1.665% 15px;height:100px;text-align: center;font-size: 1.4em;line-height: 90px;border-radius: 5px;}
+.menu-item:hover {color:#fff;}
+@media all and (max-width: 768px) {
+	.db {display: inline-block;margin-right: 5%;top:0;font-size: 1.2em;}
+	.menu-item {text-align: left;text-indent: 1em;line-height: 100px;}
+	.db2 {display: inline-block;margin-right: 3%;}
+	.db3 {width: 30%}
+	#mar23 {margin-left:0%;}
+
+}
+@media all and (max-width: 765px) {
+	.login-wrap {width: 100%;}
+	.menu-item {width: 100%;font-size: 1.2em;line-height: 40px;height:40px;text-indent: 2em;}
+	.tipis {margin-top: 0;padding:0;margin-bottom: 15px;}
+	.media-mb15 {margin-bottom: 15px;}
+	td { word-wrap:break-word; /*连续的数字或者英文就会不换行 得使用强制换行*/  word-break:break-all; /*连续的数字或者英文就会不换行 得使用强制换行*/  }
+	.offset-28 {left: 6%}
+	.db {font-size: 1em;}
+	.navbar-nav {margin-left: 8%;}
+}
+
+@media all and (min-width: 768px) {
+	.navbar {border-radius:0;}
+	.navbar-nav {float:right;}
+	
+}
