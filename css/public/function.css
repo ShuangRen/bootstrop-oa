@@ -1,7 +1,0 @@
-.f-fl {float: left;}
-.f-fr {float: right;}
-
-.f-mxWidth {width:100%;max-width: 1200px;--min-width:768px;margin-left: auto;margin-right: auto;}
-.f-imgBig {-moz-transition: all .5s;-ms-transition: all .5s;-o-transition:all .5s ;-webkit-transition:all .5s ;transition:all .5s ;}
-.f-imgBig:hover {-webkit-transform:scale(1.2);-moz-transform:scale(1.2);-o-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
-.f-clear {clear: both;}
